@@ -1,0 +1,47 @@
+﻿div.SortComboboxWrapper
+{
+    position: relative;
+    line-height: normal;
+}
+.SortComboboxWrapper input
+{
+    text-transform:uppercase;
+    border:none;
+    text-align:center;
+    line-height:29px;
+    height:25px;
+}
+.SortComboboxWrapper input[disabled=disabled]
+{
+    background-color: #fff;
+    color: #999;
+}
+
+div.SortComboboxOptionsWrapper
+{
+    background-color:#fff;
+    position:relative;
+    display: none;
+    overflow: auto;
+    max-height: 200px;
+    border: 1px solid #ccc;
+    z-index:2;
+}
+div.SortComboboxOption
+{
+    padding-left:4px;
+    padding-right:4px;
+    cursor:default;
+}
+div.SortComboboxOptionsWrapper :first-child
+{
+    margin-top:4px;
+}
+div.SortComboboxOptionsWrapper :last-child
+{
+    margin-bottom:4px;
+}
+div.SortComboboxSelectedOption
+{
+    background-color:#ebf6e0;
+}
